@@ -1,9 +1,6 @@
-import logo from "./logo.svg";
-import "./App.css";
-
 function App() {
   return (
-    <div className="App">
+    <>
       <div className="preloader-wrapper">
         <div className="preloader-inner">
           <div className="spinner-border text-red"></div>
@@ -389,7 +386,7 @@ function App() {
           </footer>
         </div>
       </section>
-    </div>
+    </>
   );
 }
 
